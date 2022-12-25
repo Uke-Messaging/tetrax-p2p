@@ -40,7 +40,6 @@ libp2p = { version = "0.50.0", features = [
     "wasm-bindgen",
     "wasm-ext",
     "wasm-ext-websocket",
-    "webrtc",
     "websocket",
     "yamux",
 ] }
