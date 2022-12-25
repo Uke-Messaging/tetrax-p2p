@@ -11,7 +11,6 @@ libp2p = { version = "0.50.0", features = [
     "async-std",
     "dns",
     "gossipsub",
-    "identify",
     "kad",
     "mdns",
     "metrics",
