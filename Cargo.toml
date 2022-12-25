@@ -25,6 +25,7 @@ libp2p = { version = "0.50.0", features = [
     "websocket",
     "yamux",
 ] }
+getrandom = { version = "0.2", features = ["js"] }
 futures = "0.3.21"
 log = "0.4.0"
 env_logger = "0.9.0"
