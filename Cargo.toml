@@ -10,7 +10,6 @@ edition = "2021"
 libp2p = { version = "0.50.0", features = [
     "async-std",
     "dns",
-    "ecdsa",
     "gossipsub",
     "identify",
     "kad",
