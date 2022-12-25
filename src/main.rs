@@ -4,7 +4,6 @@ use futures::{
     select,
 };
 use libp2p::{
-    floodsub::{self, Floodsub, FloodsubEvent},
     gossipsub::{Gossipsub, GossipsubEvent},
     identity, mdns,
     swarm::{NetworkBehaviour, SwarmEvent},
