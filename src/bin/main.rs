@@ -13,7 +13,8 @@ use log::{info, warn};
 use shamir::SecretData;
 use std::{error::Error, fs};
 
-use ::tetrax::tetrax::{TetraxEvent, Tetrax};
+extern crate tetraxlib;
+use tetraxlib::tetrax::{TetraxEvent, Tetrax};
 
 #[async_std::main]
 async fn main() -> Result<(), Box<dyn Error>> {
