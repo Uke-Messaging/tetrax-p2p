@@ -32,7 +32,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let mut swarm = tetrax.generate_swarm().await?;
     
     swarm.listen_on("/ip4/0.0.0.0/tcp/0".parse()?)?;
-
+    
     loop {
         match swarm.select_next_some().await {
             SwarmEvent::NewListenAddr { address, .. } => {
