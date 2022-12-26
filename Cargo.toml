@@ -30,7 +30,7 @@ libp2p = { version = "0.50.0", features = [
     "yamux",
 ] }
 
-async-std = { version = "1.12.0", features = ["attributes"] }
+# async-std = { version = "1.12.0", features = ["attributes"] }
 getrandom = { version = "0.2", features = ["js"] }
 futures = "0.3.25"
 log = "0.4.0"
